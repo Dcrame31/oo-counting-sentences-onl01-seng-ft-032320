@@ -11,11 +11,11 @@ class String
   end
 
   def exclamation?
-    self.end_with("?")
+    self.end_with("!")
   end
 
   def count_sentences
-    string.split(".")
-    string.count
+    self.split(".")
+    self.count
   end
 end
