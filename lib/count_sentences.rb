@@ -18,5 +18,6 @@ class String
     return 0 if self == ""
     new_string = sentence.split(/[.!?]{1,}/).join(".")+"."
     new_string.count(".")
+    new_string
   end
 end
